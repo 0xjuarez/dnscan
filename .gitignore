@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Scan outputs (keep anything committed under examples/)
+*.json
+*.csv
+!examples/*.json
+!examples/*.csv
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
